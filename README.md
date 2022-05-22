@@ -7,4 +7,3 @@
 ---
 
 + ## Linux Command
-1) ### __top__
