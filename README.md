@@ -8,9 +8,9 @@
 
 + ## Linux Command
 
-|Command|Content|Instruction|
-|:---:|:---:|:---:|
-|__top__|||
-|__ps__|||
-|__jobs__|||
-|__kill__|||
+|Command|Instruction|
+|:---:|:---:|
+|__top__||
+|__ps__||
+|__jobs__||
+|__kill__||
