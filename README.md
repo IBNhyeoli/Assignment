@@ -10,4 +10,7 @@
 
 |Command|Content|Instruction|
 |:---:|:---:|:---:|
-|top|||
+|__top__|||
+|__ps__|||
+|__jobs__|||
+|__kill__|||
