@@ -1,14 +1,14 @@
 # Open Source Software Assignment 
 
 + ## A Table of Contents
-+ ### Linux Command
-+ ### Vim Macro Command
+  + ### Linux Command
+  + ### Vim Macro Command
 
 ---
 
-+ ## Linux Command
+# Linux Command
 
-### top
+  ## top
   
 + __시스템의 상태를 전반적으로 가장 빠르게 파악 가능 (CPU, Memory, Process)__
   
@@ -121,3 +121,12 @@
 
   + __Z :__ ___zombie___
     > __부모 프로세스가 죽은 자식 프로세스__
+
+  ## ps (Process Status)
+  
+  현재 실행중인 프로세스 목록을 보여줌
+  
+  사용법
+  
+  ps [option]
+    > __주로 | (파이프라인),__ ___grep___ __명령어와 함께 사용하여 프로세스를 확인하는데 많이 사용__
