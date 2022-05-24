@@ -265,7 +265,7 @@ $ ps -el | head
 
 + 종류
 
-|옵션|내용|
+|옵션 or |내용|
 |:---:|:---:|
 |1 SIGHUP(HUP)|Hang Up의 약자로 프로세스를 재시작시키는 시그널|
 |2 SIGINT(INT)|Interrupt 실행을 중지|
