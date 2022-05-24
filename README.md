@@ -256,3 +256,22 @@ $ ps -el | head
 
 프로세스에 특정한 signal을 보내는 명령어
 > 일반적으로 종료되지 않는 프로세스를 종료 시킬 때 많이 
+
++ 사용법
+
+`kill [옵션 or 시그널] PID`
+
+`$kill -9 11`
+
++ 종류
+
+|옵션|내용|
+|:---:|:---:|
+|1 SIGHUP(HUP)|Hang Up의 약자로 프로세스를 재시작시키는 시그널|
+|2 SIGINT(INT)|Interrupt 실행을 중지|
+|3 SIGQUIT(QUIT)|키보드 종료 [Ctrl] + [\]|
+|9 SIGKILL(KILL)|무조건 종료, 즉 강제 종료시키는 시그널|
+|15 SIGTERM(TERM)|Terminate의 약자로 가능한 정상 종료시키는 시그널|
+|18 CONT|Continue. Stop등에 의해 정지된 프로세스를 다시 실행|
+|19 STOP|무조건적, 즉각정 정지|
+|20 TSTP|실행 정지 후 다시 실행을 계속하기 위해 대기시키는 시그널|
