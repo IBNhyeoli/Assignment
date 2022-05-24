@@ -229,3 +229,25 @@ $ ps -el | head
 `jobs [옵션][작업명]`
 
 `jobs -x command [args]`
+
++ ### 옵션
+
+|명령어|설명|
+|:---:|:---:|
+|-l|프로세스 그룹 ID를 state 필드 앞에 출력|
+|-n|프로세스 그룹 중에 대표 프로세스 ID를 출력|
+|-p|각 프로세스 ID에 대해 한 행씩 출력|
+|command|지정한 명령어를 실행|
+
++ ### 알 수 있는 세션의 상태 값
+
+|상태|설명|
+|:---:|:---:|
+|Running|작업이 일시 중단되지 않았고 종료하지 않고 계속 진행 중|
+|Done|작업이 완료되어 0을 반환하고 종료됨|
+|Done(code)|작업이 정상적으로 완료되었으며, 0이 아닌 코드가 반환됨|
+|Stopped|작업이 일시 중단|
+|Stopped(SIGTSTP)|SIGTSTP 신호가 작업을 일시 중단|
+|Stopped(SIGSTOP)|SIGSTOP 신호가 작업을 일시 중단|
+|Stopped(SIGTTIN)|SIGTTIN 신호가 작업을 일시 중단|
+|Stopped(SIGTTOU)|SIGTTOU 신호가 작업을 일시 중단|
