@@ -162,11 +162,11 @@
 
 ### ps명령어와 ps가 보여주는 항목, 필드 의미
 
-![ps](https://user-images.githubusercontent.com/95179732/170050031-118c79c4-62f5-4b10-8e23-d8b7ffca0559.PNG)
-
 $ ps
 > ps 명령어만 단독으로 사용했을 때의 결과
 > 사용자와 관련된 프로세스를 출력
+
+![ps](https://user-images.githubusercontent.com/95179732/170050031-118c79c4-62f5-4b10-8e23-d8b7ffca0559.PNG)
 
 > 기본적으로 PID, TTY, TIME, CMD의 정보가 출력
 
@@ -203,3 +203,19 @@ $ ps ax
 
 $ ps aux
 > 시스템에 동작중인 모든 프로세스를 소유자 정보와 함께 다양한 정보를 출력 (BSD 포맷으로 출력)
+
+![ps aux](https://user-images.githubusercontent.com/95179732/170056268-bebb2eb6-e0ea-4636-a062-c679145436f5.PNG)
+
+$ ps -ef | more
+> `ps -ef`는 System V 계열 옵션으로 `ps aux`처럼 시스템에 동작중인 모든 프로세스를 자세히 출력
+
+> more 명령어는 추가로 한 페이지씩 화면에 출력되도록 사용
+
+![ps -ef](https://user-images.githubusercontent.com/95179732/170056360-3a96987b-c80b-496e-9696-6ea8cdd0879b.PNG)
+
+$ ps -el | head
+> 긴 포맷으로 출력하고 싶을 경우 -l 옵션을 사용
+
+> `ps -ef`에서 보이지 않았던 F, S, PRI, NI, ADDR~ 등등 더 많은 정보들이 출력
+
+![ps -el](https://user-images.githubusercontent.com/95179732/170056830-f4a7f70c-d7e2-43a9-bd76-ada337f48445.PNG)
