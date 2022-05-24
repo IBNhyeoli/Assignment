@@ -273,5 +273,5 @@ $ ps -el | head
 |9 SIGKILL(KILL)|무조건 종료, 즉 강제 종료시키는 시그널|
 |15 SIGTERM(TERM)|Terminate의 약자로 가능한 정상 종료시키는 시그널|
 |18 CONT|Continue. Stop등에 의해 정지된 프로세스를 다시 실행|
-|19 STOP|무조건적, 즉각정 정지|
+|19 STOP|무조건적, 즉각적 정지|
 |20 TSTP|실행 정지 후 다시 실행을 계속하기 위해 대기시키는 시그널|
