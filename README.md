@@ -251,3 +251,8 @@ $ ps -el | head
 |Stopped(SIGSTOP)|SIGSTOP 신호가 작업을 일시 중단|
 |Stopped(SIGTTIN)|SIGTTIN 신호가 작업을 일시 중단|
 |Stopped(SIGTTOU)|SIGTTOU 신호가 작업을 일시 중단|
+
+## kill
+
+프로세스에 특정한 signal을 보내는 명령어
+> 일반적으로 종료되지 않는 프로세스를 종료 시킬 때 많이 
