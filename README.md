@@ -219,3 +219,13 @@ $ ps -el | head
 > `ps -ef`에서 보이지 않았던 F, S, PRI, NI, ADDR~ 등등 더 많은 정보들이 출력
 
 ![ps -el](https://user-images.githubusercontent.com/95179732/170056830-f4a7f70c-d7e2-43a9-bd76-ada337f48445.PNG)
+
+## jobs
+
+작업이 중지된 상태, 백그라운드로 진행 중인 작업 상태, 변경 되었지만 보고되지 않은 상태 등을 표시함
+
++ 사용법
+
+`jobs [옵션][작업명]`
+
+`jobs -x command [args]`
