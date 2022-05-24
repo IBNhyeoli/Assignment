@@ -201,3 +201,5 @@ $ ps ax
 
 ![ps ax](https://user-images.githubusercontent.com/95179732/170055637-bd613a42-1582-4900-8734-b3afaba81c7e.PNG)
 
+$ ps aux
+> 시스템에 동작중인 모든 프로세스를 소유자 정보와 함께 다양한 정보를 출력 (BSD 포맷으로 출력)
